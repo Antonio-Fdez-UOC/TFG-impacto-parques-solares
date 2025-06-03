@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2025-04-28" view-index="0" gantt-divider-location="591" resource-divider-location="300" version="3.3.3316" locale="es_ES">
+    <description/>
+    <view zooming-state="default:5" id="gantt-chart">
+        <field id="tpd15" name="Notas" width="20" order="0"/>
+        <field id="tpd3" name="Nombre" width="393" order="0"/>
+        <field id="tpd4" name="Fecha de inicio" width="88" order="1"/>
+        <field id="tpd5" name="Fecha de fin" width="94" order="2"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nombre" width="210" order="0"/>
+        <field id="1" name="Función" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="0" mon="0" tue="0" wed="0" thu="0" fri="0" sat="0"/>
+            <only-show-weekends value="true"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" uid="aa671416b25d49f487bed66ba481fca5" name="PEC 1. Plan de trabajo" meeting="false" project="true" start="2025-02-19" duration="14" complete="0" expand="true">
+            <task id="2" uid="e4e766786b2d4b7baea59aab64c3c5b6" name="T1.1 Definir el título y las palabras clave del proyecto" meeting="false" start="2025-02-19" duration="1" complete="0" expand="true"/>
+            <task id="3" uid="c8339e452c184197bd05d1c64e0a82b9" name="T1.2 Redactar el resumen del proyecto (abstract)" meeting="false" start="2025-02-20" duration="1" complete="0" expand="true"/>
+            <task id="4" uid="bac46aff768e4d01adb93102e898806d" name="T1.3 Contextualizar y justificar la relevancia del trabajo" meeting="false" start="2025-02-21" duration="2" complete="0" expand="true"/>
+            <task id="5" uid="81b3b328a74940f3bab84fbd46d4c2e5" name="T1.4 Explicar la motivación personal detrás del proyecto" meeting="false" start="2025-02-23" duration="1" complete="0" expand="true"/>
+            <task id="6" uid="53b319805d654c1899df049eab41aa22" name="T1.5 Establecer los objetivos generales y específicos" meeting="false" start="2025-02-24" duration="2" complete="0" expand="true"/>
+            <task id="7" uid="c6ae8ec4c9c841718a68a0d957292e4e" name="T1.6 Determinar la metodología de investigación y trabajo" meeting="false" start="2025-02-26" duration="2" complete="0" expand="true"/>
+            <task id="8" uid="ea967aa210c14279ba5c1a6228e79195" name="T1.7 Identificar la perspectiva de género aplicable al proyecto" meeting="false" start="2025-02-28" duration="1" complete="0" expand="true"/>
+            <task id="9" uid="df705b63a9004452829bc58aa960895b" name="T1.8 Asociar el proyecto con los ODS relevantes" meeting="false" start="2025-03-01" duration="1" complete="0" expand="true"/>
+            <task id="10" uid="1451025fe4f548e8831d0364e8d14751" name="T1.9 Planificar las tareas del proyecto (diagrama de Gantt)" meeting="false" start="2025-03-02" duration="3" complete="0" expand="true"/>
+            <task id="11" uid="687fdfeb773e4f0dafbc059a2b742cb1" name="T1.10 Recopilar la bibliografía inicial" meeting="false" start="2025-02-21" duration="8" complete="0" expand="true"/>
+        </task>
+        <task id="1" uid="6436504480e04557890b0c06368be2f5" name="PEC 2. Estado del arte o análisis de mercado del proyecto" meeting="false" start="2025-03-05" duration="28" complete="0" expand="true">
+            <task id="12" uid="51bbb229d89542eda7bf2a3d767cb9c4" name="T2.1 Investigar proyectos previos mediante SIG" meeting="false" start="2025-03-05" duration="7" complete="0" expand="true"/>
+            <task id="13" uid="b300ed49f2714540b4c41a0a37ee3fda" name="T2.2 Analizar estudios que utilicen modelos predictivos" meeting="false" start="2025-03-12" duration="7" complete="0" expand="true"/>
+            <task id="14" uid="8136f5b0490b42b381ae3719c31db791" name="T2.3 Evaluar metodologías aplicadas en otros proyectos" meeting="false" start="2025-03-19" duration="5" complete="0" expand="true"/>
+            <task id="15" uid="7ed8a4e2e6ae470aa9877dedb473dfc4" name="T2.4 Seleccionar las herramientas, librerías y datasets a utilizar" meeting="false" start="2025-03-24" duration="4" complete="0" expand="true"/>
+            <task id="16" uid="05936b9a23214836971e82e2e516d70d" name="T2.5 Refinar objetivos y metodología en función estado del arte" meeting="false" start="2025-03-28" duration="3" complete="0" expand="true"/>
+            <task id="17" uid="a4e40243b9a345819f9b479fa108199f" name="T2.6 Actualizar memoria TFG con información recabada" meeting="false" start="2025-03-31" duration="2" complete="0" expand="true"/>
+        </task>
+        <task id="19" uid="92138df21c3e4a1ea1c50a925d51e85b" name="PEC 3. Diseño e Implementación" meeting="false" start="2025-04-02" duration="35" complete="0" expand="true">
+            <task id="20" uid="a021ee14644e4f6ba9155a3cc8a8a844" name="T3.1 Preparar entorno de trabajo con QGIS, PostgreSQL y Python" meeting="false" start="2025-04-02" duration="4" complete="0" expand="true"/>
+            <task id="21" uid="636f9f4f71b744969c20ac18886a860b" name="T3.2 Obtener y preprocesar los datos geoespaciales necesarios" meeting="false" start="2025-04-06" duration="6" complete="0" expand="true"/>
+            <task id="22" uid="a693fd3a92114721999e0bdf8fcd8f2b" name="T3.3 Realizar análisis SIG para evaluar proximidad parques solares a zonas protegidas" meeting="false" start="2025-04-12" duration="7" complete="0" expand="true"/>
+            <task id="23" uid="ff4950217cd64c24bdb1d295cfa98e72" name="T3.4 Implementar modelos predictivos para analizar la fragmentación de hábitats" meeting="false" start="2025-04-19" duration="8" complete="0" expand="true"/>
+            <task id="24" uid="2dd455e88fe444da90a72697bc4079e2" name="T3.5 Evaluar el rendimiento de los modelos" meeting="false" start="2025-04-27" duration="4" complete="0" expand="true"/>
+            <task id="25" uid="41c6c69fc0394605b442ab7108dec4d1" name="T3.6 Generar mapas temáticos y gráficos con resultados" meeting="false" start="2025-05-01" duration="4" complete="0" expand="true"/>
+            <task id="26" uid="26c26437514145bdbbf8db9e02a85690" name="T3.7 Documentar cada proceso y actualizar la memoria del proyecto" meeting="false" start="2025-05-05" duration="2" complete="0" expand="true"/>
+        </task>
+        <task id="27" uid="85cc4b9864704868b8143ccf33a25ddf" name="PEC 4. Entrega Final" meeting="false" start="2025-05-07" duration="28" complete="0" expand="true">
+            <task id="28" uid="c1134783bc89449a8a157c493daca451" name="T4.1 Conclusiones finales" meeting="false" start="2025-05-07" duration="14" complete="0" expand="true"/>
+            <task id="29" uid="cd1fe4e46825430b938551a1886bd907" name="T4.2 Líneas futuras y mejoras del modelo" meeting="false" start="2025-05-21" duration="7" complete="0" expand="true"/>
+            <task id="30" uid="96eee7d842e14a25a9180b390151edac" name="T4.3 Revisar perspectiva de género y alineamiento con ODS" meeting="false" start="2025-05-28" duration="2" complete="0" expand="true"/>
+            <task id="31" uid="2d4c961851f44450bf89c04e58032a51" name="T4.4 Producto obtenido: publicación del código y datos en un repositorio de GitHub" meeting="false" start="2025-05-30" duration="5" complete="0" expand="true"/>
+        </task>
+        <task id="34" uid="ef3b682a4e3641babbb3b84da84da135" name="PEC 5. Presentación del Proyecto" meeting="false" start="2025-06-04" duration="7" complete="0" expand="true">
+            <task id="35" uid="1a110fae6de649119648bffb55734e01" name="T5.1 Identificar puntos clave del TFG para la presentación" meeting="false" start="2025-06-04" duration="1" complete="0" expand="true"/>
+            <task id="36" uid="8c3b57e89d3a4094a58416502e229145" name="T5.2 Preparar una presentación clara en PowerPoint" meeting="false" start="2025-06-05" duration="2" complete="0" expand="true"/>
+            <task id="37" uid="37cbbef239bd4cb4b9e0c36c08433fa8" name="T5.3 Practicar la presentación" meeting="false" start="2025-06-07" duration="1" complete="0" expand="true"/>
+            <task id="38" uid="541ee11e6a9d4c868a4bd10cad571be2" name="T5.4 Grabar la presentación en vídeo" meeting="false" start="2025-06-08" duration="2" complete="0" expand="true"/>
+            <task id="39" uid="1cc06ad7e4ac410087744735cce16fe0" name="T5.5 Subir el vídeo al campus para su evaluación" meeting="false" start="2025-06-10" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="40" uid="9ccb27c900f9407caa43eb56b5ce2b86" name="PEC 6. Defensa Pública" meeting="false" start="2025-06-11" duration="7" complete="0" expand="true">
+            <task id="41" uid="23575d561119468bb2d267f984b60476" name="T6.1 Preparar la defensa del proyecto" meeting="false" start="2025-06-11" duration="6" complete="0" expand="true"/>
+            <task id="42" uid="ed1896c637324fceb1a27fe9fbb58e3d" name="T6.2 Participar en la defensa pública" meeting="false" start="2025-06-17" duration="1" complete="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
